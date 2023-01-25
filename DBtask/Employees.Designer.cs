@@ -123,9 +123,9 @@
             this.label3.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label3.Location = new System.Drawing.Point(35, 468);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(187, 31);
+            this.label3.Size = new System.Drawing.Size(157, 31);
             this.label3.TabIndex = 15;
-            this.label3.Text = "Employee Name";
+            this.label3.Text = "Date Of Birth";
             // 
             // label4
             // 
