@@ -170,9 +170,9 @@
             this.label6.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label6.Location = new System.Drawing.Point(35, 577);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(187, 31);
+            this.label6.Size = new System.Drawing.Size(115, 31);
             this.label6.TabIndex = 18;
-            this.label6.Text = "Employee Name";
+            this.label6.Text = "Join Date";
             // 
             // textBox5
             // 
