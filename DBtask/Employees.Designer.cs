@@ -47,6 +47,8 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -80,7 +82,7 @@
             this.Employee.ForeColor = System.Drawing.Color.DodgerBlue;
             this.Employee.Location = new System.Drawing.Point(562, 159);
             this.Employee.Name = "Employee";
-            this.Employee.Size = new System.Drawing.Size(334, 39);
+            this.Employee.Size = new System.Drawing.Size(321, 38);
             this.Employee.TabIndex = 2;
             this.Employee.Text = "Manage Employees";
             // 
@@ -221,12 +223,38 @@
             this.comboBox2.Size = new System.Drawing.Size(221, 36);
             this.comboBox2.TabIndex = 23;
             // 
+            // button1
+            // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.button1.Location = new System.Drawing.Point(301, 239);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(148, 248);
+            this.button1.TabIndex = 24;
+            this.button1.Text = "ADD";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.button2.Location = new System.Drawing.Point(301, 494);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(148, 255);
+            this.button2.TabIndex = 25;
+            this.button2.Text = "Update";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // Employees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1372, 810);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.pictureBox1);
@@ -277,5 +305,7 @@
         private ComboBox comboBox1;
         private ComboBox comboBox2;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private Button button1;
+        private Button button2;
     }
 }
