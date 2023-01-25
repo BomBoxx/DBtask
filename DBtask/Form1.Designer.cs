@@ -32,6 +32,10 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.Employee = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Password = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,7 +53,7 @@
             this.Employee.AutoSize = true;
             this.Employee.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Employee.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.Employee.Location = new System.Drawing.Point(364, 35);
+            this.Employee.Location = new System.Drawing.Point(402, 35);
             this.Employee.Name = "Employee";
             this.Employee.Size = new System.Drawing.Size(148, 39);
             this.Employee.TabIndex = 1;
@@ -59,7 +63,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(364, 77);
+            this.pictureBox1.Location = new System.Drawing.Point(402, 77);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(148, 73);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -67,12 +71,53 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(364, 218);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(221, 27);
+            this.textBox2.TabIndex = 4;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(364, 307);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(221, 27);
+            this.textBox1.TabIndex = 5;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label1.Location = new System.Drawing.Point(364, 169);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(121, 31);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Username";
+            // 
+            // Password
+            // 
+            this.Password.AutoSize = true;
+            this.Password.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Password.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.Password.Location = new System.Drawing.Point(364, 257);
+            this.Password.Name = "Password";
+            this.Password.Size = new System.Drawing.Size(114, 31);
+            this.Password.TabIndex = 7;
+            this.Password.Text = "Password";
+            this.Password.Click += new System.EventHandler(this.label2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Password);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Employee);
             this.Controls.Add(this.panel1);
@@ -89,5 +134,9 @@
         private Panel panel1;
         private Label Employee;
         private PictureBox pictureBox1;
+        private TextBox textBox2;
+        private TextBox textBox1;
+        private Label label1;
+        private Label Password;
     }
 }
