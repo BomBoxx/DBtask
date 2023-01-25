@@ -87,9 +87,9 @@
             this.Password.ForeColor = System.Drawing.Color.DodgerBlue;
             this.Password.Location = new System.Drawing.Point(35, 279);
             this.Password.Name = "Password";
-            this.Password.Size = new System.Drawing.Size(187, 31);
+            this.Password.Size = new System.Drawing.Size(201, 31);
             this.Password.TabIndex = 11;
-            this.Password.Text = "Employee Name";
+            this.Password.Text = "Employee Gender";
             // 
             // label2
             // 
