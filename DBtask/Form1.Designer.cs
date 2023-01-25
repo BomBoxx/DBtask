@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.Employee = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // panel1
@@ -41,14 +41,17 @@
             this.panel1.Size = new System.Drawing.Size(250, 450);
             this.panel1.TabIndex = 0;
             // 
-            // label1
+            // Employee
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(374, 49);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 20);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.Employee.AutoSize = true;
+            this.Employee.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Employee.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.Employee.Location = new System.Drawing.Point(364, 35);
+            this.Employee.Name = "Employee";
+            this.Employee.Size = new System.Drawing.Size(148, 39);
+            this.Employee.TabIndex = 1;
+            this.Employee.Text = "DB Task";
+            this.Employee.Click += new System.EventHandler(this.Employee_Click);
             // 
             // Form1
             // 
@@ -56,7 +59,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Employee);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -68,6 +71,6 @@
         #endregion
 
         private Panel panel1;
-        private Label label1;
+        private Label Employee;
     }
 }

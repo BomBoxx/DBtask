@@ -6,5 +6,10 @@ namespace DBtask
         {
             InitializeComponent();
         }
+
+        private void Employee_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
