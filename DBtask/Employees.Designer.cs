@@ -159,9 +159,9 @@
             this.label5.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label5.Location = new System.Drawing.Point(35, 665);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(187, 31);
+            this.label5.Size = new System.Drawing.Size(251, 31);
             this.label5.TabIndex = 19;
-            this.label5.Text = "Employee Name";
+            this.label5.Text = "Employee Daily Salary";
             // 
             // label6
             // 
