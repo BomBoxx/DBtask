@@ -134,9 +134,9 @@
             this.label4.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label4.Location = new System.Drawing.Point(35, 380);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(187, 31);
+            this.label4.Size = new System.Drawing.Size(254, 31);
             this.label4.TabIndex = 14;
-            this.label4.Text = "Employee Name";
+            this.label4.Text = "Employee Department";
             // 
             // textBox3
             // 
