@@ -1,6 +1,6 @@
 ﻿namespace DBtask
 {
-    partial class Form1
+    partial class Department
     {
         /// <summary>
         /// Required designer variable.
