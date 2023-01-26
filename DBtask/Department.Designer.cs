@@ -61,7 +61,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.FloralWhite;
-            this.button2.Location = new System.Drawing.Point(150, 331);
+            this.button2.Location = new System.Drawing.Point(156, 439);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(105, 60);
             this.button2.TabIndex = 43;
@@ -74,7 +74,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(34, 331);
+            this.button1.Location = new System.Drawing.Point(40, 439);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(105, 60);
             this.button1.TabIndex = 42;
@@ -84,7 +84,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(57, 168);
+            this.pictureBox1.Location = new System.Drawing.Point(63, 276);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(134, 59);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -96,7 +96,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label2.Location = new System.Drawing.Point(34, 227);
+            this.label2.Location = new System.Drawing.Point(40, 335);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(189, 28);
             this.label2.TabIndex = 29;
@@ -104,7 +104,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(34, 276);
+            this.textBox2.Location = new System.Drawing.Point(40, 384);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(221, 27);
             this.textBox2.TabIndex = 28;
@@ -116,9 +116,9 @@
             this.Employee.ForeColor = System.Drawing.Color.DodgerBlue;
             this.Employee.Location = new System.Drawing.Point(575, 202);
             this.Employee.Name = "Employee";
-            this.Employee.Size = new System.Drawing.Size(321, 38);
+            this.Employee.Size = new System.Drawing.Size(330, 38);
             this.Employee.TabIndex = 27;
-            this.Employee.Text = "Manage Employees";
+            this.Employee.Text = "Manage Department";
             // 
             // label1
             // 
@@ -146,7 +146,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label3.Location = new System.Drawing.Point(981, 227);
+            this.label3.Location = new System.Drawing.Point(1065, 276);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(166, 28);
             this.label3.TabIndex = 44;
