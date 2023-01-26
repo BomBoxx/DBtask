@@ -38,6 +38,7 @@
             this.Employee = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -48,9 +49,9 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.FloralWhite;
-            this.button2.Location = new System.Drawing.Point(300, 504);
+            this.button2.Location = new System.Drawing.Point(150, 331);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(148, 281);
+            this.button2.Size = new System.Drawing.Size(105, 60);
             this.button2.TabIndex = 43;
             this.button2.Text = "Update";
             this.button2.UseVisualStyleBackColor = false;
@@ -61,9 +62,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(300, 227);
+            this.button1.Location = new System.Drawing.Point(34, 331);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(148, 272);
+            this.button1.Size = new System.Drawing.Size(105, 60);
             this.button1.TabIndex = 42;
             this.button1.Text = "ADD";
             this.button1.UseVisualStyleBackColor = false;
@@ -128,11 +129,23 @@
             this.panel1.Size = new System.Drawing.Size(1386, 133);
             this.panel1.TabIndex = 26;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label3.Location = new System.Drawing.Point(981, 227);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(166, 28);
+            this.label3.TabIndex = 44;
+            this.label3.Text = "Department List";
+            // 
             // Department
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1386, 856);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
@@ -161,5 +174,6 @@
         private Label Employee;
         private Label label1;
         private Panel panel1;
+        private Label label3;
     }
 }
