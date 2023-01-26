@@ -33,24 +33,30 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.Password = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.Employee = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // button2
@@ -91,17 +97,6 @@
             this.comboBox2.Size = new System.Drawing.Size(221, 28);
             this.comboBox2.TabIndex = 41;
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Male",
-            "Female"});
-            this.comboBox1.Location = new System.Drawing.Point(43, 375);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(221, 28);
-            this.comboBox1.TabIndex = 40;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -121,42 +116,6 @@
             this.panel2.Size = new System.Drawing.Size(1404, 26);
             this.panel2.TabIndex = 38;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label5.Location = new System.Drawing.Point(43, 710);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(224, 28);
-            this.label5.TabIndex = 37;
-            this.label5.Text = "Employee Daily Salary";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label6.Location = new System.Drawing.Point(43, 622);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(102, 28);
-            this.label6.TabIndex = 36;
-            this.label6.Text = "Join Date";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(43, 760);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(221, 27);
-            this.textBox5.TabIndex = 35;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(43, 671);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(221, 27);
-            this.textBox6.TabIndex = 34;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -164,16 +123,9 @@
             this.label3.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label3.Location = new System.Drawing.Point(43, 513);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(140, 28);
+            this.label3.Size = new System.Drawing.Size(153, 28);
             this.label3.TabIndex = 33;
-            this.label3.Text = "Date Of Birth";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(43, 563);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(221, 27);
-            this.textBox3.TabIndex = 31;
+            this.label3.Text = "Salary Amount";
             // 
             // Password
             // 
@@ -182,9 +134,9 @@
             this.Password.ForeColor = System.Drawing.Color.DodgerBlue;
             this.Password.Location = new System.Drawing.Point(43, 324);
             this.Password.Name = "Password";
-            this.Password.Size = new System.Drawing.Size(178, 28);
+            this.Password.Size = new System.Drawing.Size(152, 28);
             this.Password.TabIndex = 30;
-            this.Password.Text = "Employee Gender";
+            this.Password.Text = "Days Attended";
             // 
             // label2
             // 
@@ -193,16 +145,9 @@
             this.label2.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label2.Location = new System.Drawing.Point(43, 236);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(166, 28);
+            this.label2.Size = new System.Drawing.Size(104, 28);
             this.label2.TabIndex = 29;
-            this.label2.Text = "Employee Name";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(43, 285);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(221, 27);
-            this.textBox2.TabIndex = 28;
+            this.label2.Text = "Employee";
             // 
             // Employee
             // 
@@ -233,9 +178,9 @@
             this.label4.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label4.Location = new System.Drawing.Point(43, 425);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(225, 28);
+            this.label4.Size = new System.Drawing.Size(72, 28);
             this.label4.TabIndex = 32;
-            this.label4.Text = "Employee Department";
+            this.label4.Text = "Period";
             // 
             // panel1
             // 
@@ -247,27 +192,125 @@
             this.panel1.Size = new System.Drawing.Size(1404, 133);
             this.panel1.TabIndex = 26;
             // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "Male",
+            "Female"});
+            this.comboBox3.Location = new System.Drawing.Point(43, 281);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(221, 28);
+            this.comboBox3.TabIndex = 44;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(43, 376);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(221, 27);
+            this.textBox1.TabIndex = 45;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "IT",
+            "HR",
+            "PR"});
+            this.comboBox1.Location = new System.Drawing.Point(43, 563);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(221, 28);
+            this.comboBox1.TabIndex = 46;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(955, 211);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(125, 62);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 47;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(762, 224);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(65, 49);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 48;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(1119, 324);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(65, 49);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 49;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(542, 224);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(65, 49);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 50;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label5.Location = new System.Drawing.Point(613, 236);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(104, 28);
+            this.label5.TabIndex = 51;
+            this.label5.Text = "Employee";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label6.Location = new System.Drawing.Point(854, 236);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(127, 28);
+            this.label6.TabIndex = 52;
+            this.label6.Text = "Department";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
             // Salaries
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1404, 903);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.Password);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.Employee);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
@@ -277,6 +320,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -288,21 +335,23 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private Button button1;
         private ComboBox comboBox2;
-        private ComboBox comboBox1;
         private PictureBox pictureBox1;
         private Panel panel2;
-        private Label label5;
-        private Label label6;
-        private TextBox textBox5;
-        private TextBox textBox6;
         private Label label3;
-        private TextBox textBox3;
         private Label Password;
         private Label label2;
-        private TextBox textBox2;
         private Label Employee;
         private Label label1;
         private Label label4;
         private Panel panel1;
+        private ComboBox comboBox3;
+        private TextBox textBox1;
+        private ComboBox comboBox1;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox4;
+        private PictureBox pictureBox5;
+        private Label label5;
+        private Label label6;
     }
 }
