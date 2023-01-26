@@ -16,5 +16,10 @@ namespace DBtask
         {
             InitializeComponent();
         }
+
+        private void Department_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
